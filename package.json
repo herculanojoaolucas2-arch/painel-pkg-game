@@ -1,0 +1,16 @@
+{
+  "name": "painel-pkg-games",
+  "version": "1.0.0",
+  "description": "Painel PKG GAMES com API Node.js (Express) para salvar os jogos em assets/json/game.json",
+  "main": "salvar.js",
+  "private": true,
+  "scripts": {
+    "start": "node salvar.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
